@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    
+    <!-- Homepage -->
+    <url>
+        <loc>https://perfectkeylocksmith.com/</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Location Pages - High Priority for Local SEO -->
+    <url>
+        <loc>https://perfectkeylocksmith.com/locksmith-welland.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://perfectkeylocksmith.com/locksmith-st-catharines.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://perfectkeylocksmith.com/locksmith-niagara-falls.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://perfectkeylocksmith.com/locksmith-thorold.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://perfectkeylocksmith.com/locksmith-port-colborne.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://perfectkeylocksmith.com/locksmith-fort-erie.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://perfectkeylocksmith.com/locksmith-niagara-on-the-lake.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://perfectkeylocksmith.com/locksmith-grimsby.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://perfectkeylocksmith.com/locksmith-lincoln.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://perfectkeylocksmith.com/locksmith-pelham.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Service-Specific Pages - High Priority for Non-Branded Keywords -->
+    <url>
+        <loc>https://perfectkeylocksmith.com/car-lockout-welland.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://perfectkeylocksmith.com/house-lockout-welland.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://perfectkeylocksmith.com/car-key-replacement-welland.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://perfectkeylocksmith.com/lock-change-welland.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://perfectkeylocksmith.com/emergency-locksmith-welland.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- St. Catharines Service Pages -->
+    <url>
+        <loc>https://perfectkeylocksmith.com/car-lockout-st-catharines.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://perfectkeylocksmith.com/house-lockout-st-catharines.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://perfectkeylocksmith.com/car-key-replacement-st-catharines.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://perfectkeylocksmith.com/lock-change-st-catharines.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://perfectkeylocksmith.com/emergency-locksmith-st-catharines.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Niagara Falls Service Pages -->
+    <url>
+        <loc>https://perfectkeylocksmith.com/car-lockout-niagara-falls.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://perfectkeylocksmith.com/house-lockout-niagara-falls.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://perfectkeylocksmith.com/car-key-replacement-niagara-falls.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://perfectkeylocksmith.com/lock-change-niagara-falls.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://perfectkeylocksmith.com/emergency-locksmith-niagara-falls.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Thorold Service Pages -->
+    <url><loc>https://perfectkeylocksmith.com/car-lockout-thorold.html</loc><lastmod>2024-12-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://perfectkeylocksmith.com/house-lockout-thorold.html</loc><lastmod>2024-12-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://perfectkeylocksmith.com/car-key-replacement-thorold.html</loc><lastmod>2024-12-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://perfectkeylocksmith.com/lock-change-thorold.html</loc><lastmod>2024-12-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://perfectkeylocksmith.com/emergency-locksmith-thorold.html</loc><lastmod>2024-12-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    
+    <!-- Port Colborne Service Pages -->
+    <url><loc>https://perfectkeylocksmith.com/car-lockout-port-colborne.html</loc><lastmod>2024-12-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://perfectkeylocksmith.com/house-lockout-port-colborne.html</loc><lastmod>2024-12-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://perfectkeylocksmith.com/car-key-replacement-port-colborne.html</loc><lastmod>2024-12-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://perfectkeylocksmith.com/lock-change-port-colborne.html</loc><lastmod>2024-12-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://perfectkeylocksmith.com/emergency-locksmith-port-colborne.html</loc><lastmod>2024-12-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    
+    <!-- Fort Erie Service Pages -->
+    <url><loc>https://perfectkeylocksmith.com/car-lockout-fort-erie.html</loc><lastmod>2024-12-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://perfectkeylocksmith.com/house-lockout-fort-erie.html</loc><lastmod>2024-12-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://perfectkeylocksmith.com/car-key-replacement-fort-erie.html</loc><lastmod>2024-12-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://perfectkeylocksmith.com/lock-change-fort-erie.html</loc><lastmod>2024-12-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://perfectkeylocksmith.com/emergency-locksmith-fort-erie.html</loc><lastmod>2024-12-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    
+    <!-- Grimsby Service Pages -->
+    <url><loc>https://perfectkeylocksmith.com/car-lockout-grimsby.html</loc><lastmod>2024-12-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://perfectkeylocksmith.com/emergency-locksmith-grimsby.html</loc><lastmod>2024-12-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    
+    <!-- Lincoln Service Pages -->
+    <url><loc>https://perfectkeylocksmith.com/car-lockout-lincoln.html</loc><lastmod>2024-12-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://perfectkeylocksmith.com/emergency-locksmith-lincoln.html</loc><lastmod>2024-12-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    
+    <!-- Pelham Service Pages -->
+    <url><loc>https://perfectkeylocksmith.com/car-lockout-pelham.html</loc><lastmod>2024-12-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://perfectkeylocksmith.com/emergency-locksmith-pelham.html</loc><lastmod>2024-12-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    
+    <!-- Niagara-on-the-Lake Service Pages -->
+    <url><loc>https://perfectkeylocksmith.com/car-lockout-niagara-on-the-lake.html</loc><lastmod>2024-12-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://perfectkeylocksmith.com/emergency-locksmith-niagara-on-the-lake.html</loc><lastmod>2024-12-11</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    
+    <!-- Legal Pages -->
+    <url>
+        <loc>https://perfectkeylocksmith.com/privacy-policy.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    <url>
+        <loc>https://perfectkeylocksmith.com/terms-of-service.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    
+    <!-- Main Sections -->
+    <url>
+        <loc>https://perfectkeylocksmith.com/#about</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://perfectkeylocksmith.com/#services</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://perfectkeylocksmith.com/#contact</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://perfectkeylocksmith.com/#testimonial</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://perfectkeylocksmith.com/#faq</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Blog Pages -->
+    <url>
+        <loc>https://perfectkeylocksmith.com/blog/</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://perfectkeylocksmith.com/blog/what-to-do-locked-out-of-car.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://perfectkeylocksmith.com/blog/locksmith-cost-ontario.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://perfectkeylocksmith.com/blog/best-door-locks-canadian-homes.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://perfectkeylocksmith.com/blog/rekey-vs-replace-locks.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://perfectkeylocksmith.com/blog/signs-locks-need-replacement.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://perfectkeylocksmith.com/blog/what-to-do-after-break-in.html</loc>
+        <lastmod>2024-12-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+</urlset>

@@ -1,0 +1,105 @@
+/*------- FAQ -------*/
+.faq{
+    padding-bottom: 0px;
+}
+.faq_imgbox{
+    margin-top: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.accordion {
+    margin-bottom: 80px;
+    .item{
+        position: relative;
+        margin: 0px 0px 12px 0px;
+        background: #ffe9e9;
+        border-radius: 5px;
+        @include transition(all 0.7s ease);
+
+        .accordion_tab{
+            position: relative;
+            padding: 17px 25px 17px 30px;
+            cursor: pointer;
+            .accordion_title{
+                position: relative;
+                font-size: $font-18;
+                line-height: 30px;
+                font-weight: $font-bold;
+                color: #3f1817;
+                padding-right: 50px;
+                span{
+                    font-family: $paragraph-font;
+                    font-size: $font-20;
+                    color: $second-color;
+                    margin-right: 5px;
+                }
+            }
+            .accordion_tab_icon{
+                position: absolute;
+                right: 30px;
+                top: 50%;
+                -webkit-transform: translateY(-50%);
+                -moz-transform: translateY(-50%);
+                transform: translateY(-50%);
+                z-index: 2;
+                cursor: pointer;
+                width: 35px;
+                height: 35px;
+                background: transparent;
+                color: $second-color;
+                font-size: $font-20;
+                text-align: center;
+                line-height: 36px;
+                -webkit-border-radius: 100%;
+                -moz-border-radius: 100%;
+                border-radius: 100%;
+                .close_icon{
+                    display: none;
+                }
+            }
+        }
+
+        .accordion_info{
+            position: relative;
+            cursor: pointer;
+            font-size: $font-14;
+            line-height: 26px;
+            font-weight: $font-medium;
+            text-align: justify;
+            color: $white-color;
+            padding: 0px 160px 40px 60px;
+            display: none;
+        }
+
+        &.active{
+            background: #3f1817;
+            padding: 8px 0px 0px 0px;
+            .accordion_tab{
+                .accordion_title{
+                    color: $second-color;
+                    span{
+                        color: $white-color;
+                    }
+                }
+                .accordion_tab_icon{
+                    background: $second-color;
+                    color: $white-color;
+                    box-shadow: 0px 0px 6px $second-color;
+                    .open_icon{
+                        display: none;
+                    }
+                    .close_icon{
+                        display: block;
+                    }
+                }
+            }
+            .accordion_info{
+                display: block;
+            }
+        }
+        &:last-child{
+            margin-bottom: 0px;
+        }
+    }
+}

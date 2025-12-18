@@ -1,0 +1,24 @@
+# robots.txt for Perfect Key Locksmith
+# https://perfectkeylocksmith.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://perfectkeylocksmith.com/sitemap.xml/index.xml
+
+# Disallow admin/private areas (add as needed)
+Disallow: /bin/
+Disallow: /lib/
+Disallow: /include/
+Disallow: /python/
+Disallow: /*.py$
+
+# Allow search engines to crawl CSS and JS for better rendering
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+
+# Crawl-delay (optional - remove if causing issues)
+Crawl-delay: 1
+

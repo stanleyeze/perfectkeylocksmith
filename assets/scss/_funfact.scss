@@ -1,0 +1,55 @@
+/*---------- Funfacts ------------*/
+.funfacts{
+    padding-top: 100px;
+    .section_header {
+        padding-right: 120px;
+        .section_title {
+            color: $white-color;
+        }
+        .section_desc{
+            color: #c5d1e7;
+        }
+    }
+    .man_img{
+        margin-top: -70px;
+        margin-left: -15px;
+    }
+}
+.funfacts_2{
+    position: relative;
+    z-index: 1;
+    margin-top: 85px;
+    margin-bottom: -100px;
+    padding: 50px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    .funbox1{
+        justify-content: center;
+        @include bordered-right (1px, solid, rgba(255, 2555, 255, 0.08));
+        margin: 0;
+        padding: 15px 0px;
+    }
+}
+.funbox1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    .fun_img{
+        margin-right: 20px;
+    }
+    .fun_content{
+        h1{
+            font-size: 44px;
+            font-weight: $font-bold;
+            line-height: 42px;
+            color: $second-color;
+        }
+        p{
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 28px;
+            color: $white-color;
+        }
+    }
+}

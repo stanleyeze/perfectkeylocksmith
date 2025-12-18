@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Locksmith Tips & Guides | Perfect Key Locksmith Blog</title>
+    <meta name="description" content="Expert locksmith tips, security guides, and answers to common lock questions. Learn about car lockouts, home security, lock maintenance, and more from Niagara's trusted locksmiths.">
+    <meta name="keywords" content="locksmith tips, home security guide, car lockout help, lock replacement guide, locksmith cost Ontario, Welland locksmith blog">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://perfectkeylocksmith.com/blog/">
+    <link rel="icon" type="image/png" href="../assets/images/dlogo.png">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://perfectkeylocksmith.com/blog/">
+    <meta property="og:title" content="Locksmith Tips & Security Guides | Perfect Key Locksmith">
+    <meta property="og:description" content="Expert locksmith tips and security guides from Niagara's trusted locksmiths.">
+    <meta property="og:image" content="https://perfectkeylocksmith.com/assets/images/dlogo.png">
+    
+    <!-- Schema.org Blog -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "Perfect Key Locksmith Blog",
+        "description": "Expert locksmith tips, security guides, and helpful articles",
+        "url": "https://perfectkeylocksmith.com/blog/",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Perfect Key Locksmith",
+            "logo": "https://perfectkeylocksmith.com/assets/images/dlogo.png"
+        }
+    }
+    </script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary: #dc2626;
+            --primary-dark: #b91c1c;
+            --dark: #0f172a;
+            --navy: #1e293b;
+            --light: #f8fafc;
+            --gray: #64748b;
+            --text: #334155;
+        }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            color: var(--text);
+            line-height: 1.7;
+            background: var(--light);
+        }
+        a { text-decoration: none; color: inherit; transition: all 0.2s; }
+        img { max-width: 100%; height: auto; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        
+        /* Header */
+        .header {
+            background: var(--dark);
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.2);
+        }
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo img { height: 50px; }
+        .nav { display: flex; gap: 30px; }
+        .nav a { color: #fff; font-weight: 500; opacity: 0.9; }
+        .nav a:hover { opacity: 1; color: var(--primary); }
+        .header-cta {
+            background: var(--primary);
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 700;
+        }
+        .header-cta:hover { background: var(--primary-dark); }
+        
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, var(--dark) 0%, var(--navy) 100%);
+            padding: 80px 0;
+            text-align: center;
+            color: #fff;
+        }
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+        .hero h1 span { color: var(--primary); }
+        .hero p {
+            font-size: 20px;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        /* Blog Grid */
+        .blog-section {
+            padding: 80px 0;
+        }
+        .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .section-header h2 {
+            font-size: 32px;
+            color: var(--dark);
+            margin-bottom: 12px;
+        }
+        .section-header p {
+            color: var(--gray);
+            font-size: 18px;
+        }
+        
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+        }
+        
+        .blog-card {
+            background: #fff;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+        }
+        .blog-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+        }
+        .blog-card-image {
+            height: 200px;
+            background: linear-gradient(135deg, var(--dark) 0%, var(--navy) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+        }
+        .blog-card-content {
+            padding: 24px;
+        }
+        .blog-card-category {
+            display: inline-block;
+            background: rgba(220,38,38,0.1);
+            color: var(--primary);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+        .blog-card h3 {
+            font-size: 20px;
+            color: var(--dark);
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+        .blog-card h3:hover { color: var(--primary); }
+        .blog-card p {
+            color: var(--gray);
+            font-size: 15px;
+            margin-bottom: 16px;
+        }
+        .blog-card-meta {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 13px;
+            color: var(--gray);
+        }
+        .read-more {
+            color: var(--primary);
+            font-weight: 600;
+        }
+        .read-more:hover { text-decoration: underline; }
+        
+        /* Categories */
+        .categories {
+            background: #fff;
+            padding: 60px 0;
+            border-top: 1px solid #e2e8f0;
+        }
+        .category-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+        }
+        .category-tag {
+            background: var(--light);
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-weight: 500;
+            color: var(--dark);
+            border: 2px solid #e2e8f0;
+            transition: all 0.2s;
+        }
+        .category-tag:hover {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+        }
+        
+        /* CTA */
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            padding: 60px 0;
+            text-align: center;
+            color: #fff;
+        }
+        .cta-section h2 {
+            font-size: 32px;
+            margin-bottom: 16px;
+        }
+        .cta-section p {
+            font-size: 18px;
+            opacity: 0.9;
+            margin-bottom: 24px;
+        }
+        .cta-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: #fff;
+            color: var(--primary);
+            padding: 16px 32px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 18px;
+        }
+        .cta-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        /* Footer */
+        .footer {
+            background: var(--dark);
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .footer p { opacity: 0.7; }
+        .footer a { color: var(--primary); }
+        
+        /* Mobile */
+        @media (max-width: 768px) {
+            .nav { display: none; }
+            .hero h1 { font-size: 32px; }
+            .hero p { font-size: 16px; }
+            .blog-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="../index.html" class="logo">
+                    <img src="../assets/images/dlogo.png" alt="Perfect Key Locksmith">
+                </a>
+                <nav class="nav">
+                    <a href="../index.html">Home</a>
+                    <a href="../index.html#services">Services</a>
+                    <a href="../index.html#about">About</a>
+                    <a href="index.html">Blog</a>
+                    <a href="../index.html#contact">Contact</a>
+                </nav>
+                <a href="tel:+13433128468" class="header-cta">📞 (343) 312-8468</a>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <h1>Locksmith Tips & <span>Security Guides</span></h1>
+            <p>Expert advice from Niagara's trusted locksmiths. Learn how to protect your home, car, and business.</p>
+        </div>
+    </section>
+    
+    <!-- Blog Posts -->
+    <section class="blog-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Latest Articles</h2>
+                <p>Helpful tips and answers to your locksmith questions</p>
+            </div>
+            
+            <div class="blog-grid">
+                <!-- Post 1 -->
+                <article class="blog-card">
+                    <div class="blog-card-image">🚗</div>
+                    <div class="blog-card-content">
+                        <span class="blog-card-category">Car Lockout</span>
+                        <h3><a href="what-to-do-locked-out-of-car.html">What to Do When You're Locked Out of Your Car</a></h3>
+                        <p>Step-by-step guide for handling a car lockout safely without damaging your vehicle.</p>
+                        <div class="blog-card-meta">
+                            <span>5 min read</span>
+                            <a href="what-to-do-locked-out-of-car.html" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Post 2 -->
+                <article class="blog-card">
+                    <div class="blog-card-image">💰</div>
+                    <div class="blog-card-content">
+                        <span class="blog-card-category">Pricing</span>
+                        <h3><a href="locksmith-cost-ontario.html">How Much Does a Locksmith Cost in Ontario? (2024 Guide)</a></h3>
+                        <p>Complete breakdown of locksmith prices in Ontario, including service fees and what affects costs.</p>
+                        <div class="blog-card-meta">
+                            <span>7 min read</span>
+                            <a href="locksmith-cost-ontario.html" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Post 3 -->
+                <article class="blog-card">
+                    <div class="blog-card-image">🏠</div>
+                    <div class="blog-card-content">
+                        <span class="blog-card-category">Home Security</span>
+                        <h3><a href="best-door-locks-canadian-homes.html">Best Door Locks for Canadian Homes in 2024</a></h3>
+                        <p>Expert recommendations for the most secure door locks that can withstand Canadian winters.</p>
+                        <div class="blog-card-meta">
+                            <span>8 min read</span>
+                            <a href="best-door-locks-canadian-homes.html" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Post 4 -->
+                <article class="blog-card">
+                    <div class="blog-card-image">🔑</div>
+                    <div class="blog-card-content">
+                        <span class="blog-card-category">Tips</span>
+                        <h3><a href="rekey-vs-replace-locks.html">Rekey vs Replace: Which Is Right for Your Locks?</a></h3>
+                        <p>When should you rekey your locks vs replacing them entirely? We break down the pros and cons.</p>
+                        <div class="blog-card-meta">
+                            <span>6 min read</span>
+                            <a href="rekey-vs-replace-locks.html" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Post 5 -->
+                <article class="blog-card">
+                    <div class="blog-card-image">⚠️</div>
+                    <div class="blog-card-content">
+                        <span class="blog-card-category">Security</span>
+                        <h3><a href="signs-locks-need-replacement.html">5 Signs Your Locks Need to Be Replaced</a></h3>
+                        <p>How to tell when your locks are compromising your security and it's time for an upgrade.</p>
+                        <div class="blog-card-meta">
+                            <span>4 min read</span>
+                            <a href="signs-locks-need-replacement.html" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Post 6 -->
+                <article class="blog-card">
+                    <div class="blog-card-image">🛡️</div>
+                    <div class="blog-card-content">
+                        <span class="blog-card-category">Safety</span>
+                        <h3><a href="what-to-do-after-break-in.html">What to Do After a Break-In: A Complete Checklist</a></h3>
+                        <p>Essential steps to take immediately after a home break-in to secure your property and protect your family.</p>
+                        <div class="blog-card-meta">
+                            <span>6 min read</span>
+                            <a href="what-to-do-after-break-in.html" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Categories -->
+    <section class="categories">
+        <div class="container">
+            <div class="section-header">
+                <h2>Browse by Category</h2>
+            </div>
+            <div class="category-grid">
+                <a href="#" class="category-tag">🚗 Car Lockouts</a>
+                <a href="#" class="category-tag">🏠 Home Security</a>
+                <a href="#" class="category-tag">💰 Pricing Guides</a>
+                <a href="#" class="category-tag">🔑 Lock Tips</a>
+                <a href="#" class="category-tag">🛡️ Safety</a>
+                <a href="#" class="category-tag">🔧 DIY</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Need a Locksmith Right Now?</h2>
+            <p>We're available 24/7 across the Niagara Region with 30-minute response times.</p>
+            <a href="tel:+13433128468" class="cta-btn">📞 Call (343) 312-8468</a>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 <a href="../index.html">Perfect Key Locksmith</a> | Serving Welland, St. Catharines, Niagara Falls & Area</p>
+            <p style="margin-top: 10px;"><a href="../privacy-policy.html">Privacy Policy</a> | <a href="../terms-of-service.html">Terms of Service</a></p>
+        </div>
+    </footer>
+</body>
+</html>
+
+

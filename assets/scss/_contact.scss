@@ -1,0 +1,260 @@
+.contact{
+    .banner{
+        margin-bottom: 110px;
+        .banner_content {
+            .banner_text{
+                padding-right: 20px;
+                @include bordered-right(1px, solid, rgba(255, 255, 255, 0.5));
+                h1{
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+}
+.gmapbox{
+    .map {
+        width: 100%;
+        height: 470px;
+        background-color: #ffeeee;
+    }
+}
+.contact_us_1{
+    .section_header{
+        margin-bottom: 35px;
+        padding-right: 0px;
+        .section_sub_title{
+            color: $white-color;
+        }
+        .section_title{
+            color: $white-color;
+        }
+    }
+    .form-group{
+        margin-bottom: 20px;
+    }
+    .comment-notes{
+        margin-bottom: 10px;
+    }
+    select, input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"]{
+        background: transparent;
+        @include bordered (2px, solid, $white-color);
+        color: $white-color;
+        height: 55px;
+    }
+    textarea.form-control{
+        background: transparent;
+        @include bordered (2px, solid, $white-color);
+    }
+    .button{
+        background: $white-color;
+        color: $second-color;
+        &:hover{
+            background: transparent;
+            color: $white-color;
+            border-color: $white-color;
+        }
+    }
+    ::-webkit-input-placeholder { 
+        color: $white-color;
+    }
+    ::-moz-placeholder { 
+        color: $white-color;
+    }
+    :-ms-input-placeholder { 
+        color: $white-color;
+    }
+    :-moz-placeholder { 
+        color: $white-color;
+    }
+    :placeholder { 
+        color: $white-color;
+    }
+}
+
+.contact_us_2{
+    padding: 110px 0px 110px 130px;
+    box-shadow: -10px 0px 15px rgba(199, 175, 175, 0.2);
+    .section_header{
+        margin-bottom: 35px;
+        padding-right: 0px;
+    }
+    .form-group{
+        margin-bottom: 20px;
+    }
+    .comment-notes{
+        margin-bottom: 10px;
+    }
+    select, input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"]{
+        background: transparent;
+        @include bordered (1px, solid, #ffd2d2);
+        color: #a05960;
+        height: 55px;
+    }
+    textarea.form-control{
+        height: 120px;
+        background: transparent;
+        @include bordered (1px, solid, #ffd2d2);
+    }
+    .button{
+        background: $second-color;
+        color: $white-color;
+        @include bordered (1px, solid, $second-color);
+        &:hover{
+            background: transparent;
+            color: $second-color;
+        }
+    }
+    ::-webkit-input-placeholder { 
+        color: #a05960;
+    }
+    ::-moz-placeholder { 
+        color: #a05960;
+    }
+    :-ms-input-placeholder { 
+        color: #a05960;
+    }
+    :-moz-placeholder { 
+        color: #a05960;
+    }
+    :placeholder { 
+        color: #a05960;
+    }
+}
+
+.keepintouch_1 {
+    padding: 0px 0px;
+    .communication{
+        display: flex;
+        flex-flow: row wrap;
+        padding: 35px 35px;
+        margin-bottom: 30px;
+        @include transition (all 0.5s ease);
+        &:nth-child(1){
+            background: #1e1e2a;
+        }
+        &:nth-child(2){
+            background: #3f1817;
+        }
+        &:nth-child(3){
+            background: #ffe9e9;
+            margin-bottom: 0px;
+            h6{
+                color: #a05960;
+            }
+        }
+        
+        h5{
+            font-size: $font-20;
+            font-weight: $font-bold;
+            line-height: 16px;
+            margin-top: 0px;
+            margin-bottom: 12px;
+            color: $second-color;
+            @include transition (all 0.5s ease);
+        }
+        h6{
+            font-family: $paragraph-font;
+            font-size: $font-16;
+            font-weight: $font-semibold;
+            line-height: 26px;
+            color: $white-color;
+            @include transition (all 0.5s ease);
+        }
+        .communication_icon{
+            position: relative;
+            min-width: 50px;
+            margin-right: 20px;
+            margin-bottom: 25px;
+            img{
+                width: auto;
+                @include transition (all 0.5s ease);
+                &.secondary_img{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    opacity: 0;
+                    visibility: hidden;
+                }
+            }
+        }
+        .info_body{
+            width: 75%;
+        }
+        
+        &:hover{        
+            &:nth-child(1){
+                background: $second-color;
+            }
+            &:nth-child(2){
+                background: $second-color;
+            }
+            &:nth-child(3){
+                background: $second-color;
+                h6{
+                    color: $white-color;
+                }
+            }
+            h5{
+                color: $white-color;
+            }
+            h6{
+                color: $white-color;
+            }
+            .communication_icon{
+                img{
+                    &.primary_img{
+                        opacity: 0;
+                        visibility: hidden;
+                    }
+                    &.secondary_img{
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.keepintouch_2 {
+    padding: 110px 0px 0px 0px;
+    .communication{
+        display: flex;
+        margin-bottom: 60px;
+        @include transition (all 0.5s ease);
+        &:last-child{
+            margin-bottom: 0px;
+        }
+        h5{
+            font-size: $font-20;
+            font-weight: $font-bold;
+            line-height: 16px;
+            margin-top: 0px;
+            margin-bottom: 12px;
+            color: $dark-color;
+            @include transition (all 0.5s ease);
+        }
+        h6{
+            font-family: $paragraph-font;
+            font-size: $font-16;
+            font-weight: $font-semibold;
+            line-height: 26px;
+            color: #a05960;
+            @include transition (all 0.5s ease);
+        }
+        .communication_icon{
+            position: relative;
+            min-width: 50px;
+            margin-right: 20px;
+            margin-bottom: 25px;
+            img{
+                width: auto;
+                @include transition (all 0.5s ease);
+            }
+        }
+        .info_body{
+            width: 70%;
+        }
+    }
+}
