@@ -78,7 +78,36 @@
     
     <url>
         <loc>https://perfectkeylocksmith.com/locksmith-pelham.html</loc>
-        <lastmod>2024-12-11</lastmod>
+        <lastmod>2024-12-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- New Location Pages - December 2024 -->
+    <url>
+        <loc>https://perfectkeylocksmith.com/locksmith-wainfleet.html</loc>
+        <lastmod>2024-12-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://perfectkeylocksmith.com/locksmith-west-lincoln.html</loc>
+        <lastmod>2024-12-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://perfectkeylocksmith.com/locksmith-beamsville.html</loc>
+        <lastmod>2024-12-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://perfectkeylocksmith.com/locksmith-fonthill.html</loc>
+        <lastmod>2024-12-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
